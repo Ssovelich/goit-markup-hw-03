@@ -65,10 +65,10 @@ h3 {
   color: #434455;
 }
 .contact:hover {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 .contact:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 /* section-one */
@@ -106,8 +106,13 @@ h3 {
 .team-member {
   background-color: #ffffff;
 }
-.team {
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
 }
 
 /* footer */
