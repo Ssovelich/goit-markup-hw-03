@@ -68,27 +68,33 @@ h3 {
 }
 
 /* section-one */
+.section-one {
+  background-color: #2e2f42;
+}
 .titel-section-one {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07143;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
 }
 .button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
   background-color: #4d5ae5;
   border: #4d5ae5;
   cursor: pointer;
 }
-.top-banner {
-  background-color: #2e2f42;
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
 }
+
+/* section-three */
 .team {
   background-color: #f4f4fd;
   text-align: center;
