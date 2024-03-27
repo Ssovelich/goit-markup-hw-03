@@ -9,20 +9,6 @@ a:link {
 ul {
   list-style-type: none;
 }
-p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
 
 /* header */
 .logo-blue {
@@ -55,7 +41,6 @@ h3 {
 }
 
 .contacts {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -76,7 +61,6 @@ h3 {
   background-color: #2e2f42;
 }
 .titel-section-one {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -99,6 +83,21 @@ h3 {
   background-color: #404bbf;
 }
 
+/* section-two */
+.item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 /* section-three */
 .section-three {
   background-color: #f4f4fd;
@@ -107,7 +106,6 @@ h3 {
   background-color: #ffffff;
 }
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -116,12 +114,10 @@ h3 {
   text-transform: capitalize;
 }
 
-/* section-three */
-
 /* footer */
 .footer {
   background-color: #2e2f42;
 }
-.footer p {
+.footer-p {
   color: #f4f4fd;
 }
